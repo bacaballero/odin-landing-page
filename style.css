@@ -1,0 +1,102 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #1F2937;
+    font-family: roboto;
+    margin: 0px;
+    width: 100%;
+}
+
+div {
+    display: block;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+
+.random-info {
+    background-color: #F9FAF8;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    padding-top: 25px;
+}
+
+.random-info ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.random-info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.img-with-text img {
+    width: 200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.img-with-text p {
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-with-text {
+    flex-direction: row;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+}
+
+.website-awesome {
+    padding: 100px 100px 100px 100px;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-holder img {
+    width: 400px;
+    border-radius: 7px;
+}
